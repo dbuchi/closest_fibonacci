@@ -1,6 +1,32 @@
 = closest_fibonacci
 
-Description goes here.
+A gem that finds the largest integer value from the Fibonacci Sequence smaller than the given integer.
+
+= Installing the gem
+
+ruby -S gem install ./pkg/closest_fibonacci-0.1.0.gem
+
+or use
+
+sudo ruby -S gem install ./pkg/closest_fibonacci-0.1.0.gem
+
+if you have system-installed ruby
+
+= Usage
+
+require 'closest_fibonacci'
+
+puts 1.closest_fibonacci
+
+puts 156.closest_fibonacci
+
+puts 99.closest_fibonacci
+
+# 0 
+
+# 144
+
+# 89 
 
 == Contributing to closest_fibonacci
  
