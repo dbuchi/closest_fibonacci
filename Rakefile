@@ -17,10 +17,10 @@ Jeweler::Tasks.new do |gem|
   gem.name = "closest_fibonacci"
   gem.homepage = "http://github.com/deeptibu/closest_fibonacci"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{finds the largest integer value from the Fibonacci Sequence smaller than the given integer}
+  gem.description = %Q{A gem that finds the largest integer value from the Fibonacci Sequence smaller than the given integer}
   gem.email = "deepti.buchi@gmail.com"
-  gem.authors = ["deeptibu"]
+  gem.authors = ["Deepti Buchi"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new

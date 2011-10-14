@@ -1,7 +1,12 @@
 require 'helper'
+require 'closest_fibonacci'
 
 class TestClosestFibonacci < Test::Unit::TestCase
-  should "probably rename this file and start testing for real" do
-    flunk "hey buddy, you should probably rename this file and start testing for real"
+  should "match the below values" do
+    assert(0, 0.closest_fibonacci)
+    assert(1, 1.closest_fibonacci)
+    assert(8, 12.closest_fibonacci)
+    assert(144, 156.closest_fibonacci)
+    assert(89, 99.closest_fibonacci)
   end
 end
